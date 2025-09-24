@@ -99,3 +99,5 @@ npm install
 npm run dev
 
 
+// console cleanup
+console.log('Commit #21: console cleanup');
