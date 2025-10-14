@@ -101,3 +101,5 @@ npm run dev
 
 // console cleanup
 console.log('Commit #21: console cleanup');
+// readme and comments update
+console.log('Commit #22: readme and comments update');
