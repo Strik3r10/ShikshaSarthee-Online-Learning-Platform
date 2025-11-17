@@ -1,14 +1,9 @@
 
 # Online Learning Platform
-
-Online Learning Platform using MERN Stack,
-Please visit [here](https://code2tutorial.com/tutorial/55a23a94-6cb7-4c48-92c1-f96db207f791/index.md) for a better understanding of the project.
 ## Objective:
 
 Develop a comprehensive online learning platform with three user types (Student, Teacher, Admin), featuring course creation, approval process, and live video conferencing.
 
-## *BACKEND for the PROJECT
-   - Backend is developed by [Parag](https://github.com/paragkadyan).
 
 ## Features
 ![Screenshot 2024-05-14 212028](https://github.com/Pika003/e-Learning-Platform/assets/104189733/e2f9ce48-764b-48d2-8af1-188ea2918e8c)
