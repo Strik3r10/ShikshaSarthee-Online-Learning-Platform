@@ -7,10 +7,12 @@ function Courses() {
   const [facList, setFacList] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  const base = import.meta.env.VITE_BACKEND_URL || '';
+
   const teachersList = async(sub)=>{
     setLoading(true);
 
-    const response = await fetch(`/api/course/${sub}`, {
+    const response = await fetch(`${base}/api/course/${sub}`, {
       method: 'GET',
       credentials: "include",
       headers: {
