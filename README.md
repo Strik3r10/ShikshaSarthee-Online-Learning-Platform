@@ -38,16 +38,9 @@ Develop a comprehensive online learning platform with three user types (Student,
      
 ![Screenshot 2024-05-14 211813](https://github.com/Pika003/e-Learning-Platform/assets/104189733/1578ca04-b85d-4c7b-8875-12f6756f2621)
 
-#### 5. *Live Video Conferencing:*
-   - Integrated video conferencing tool (similar to Google Meet) for real-time teacher-student interaction.
 
 #### 6. *Communication:*
    - An in-platform messaging system for communication between teachers and students.
-
-#### 7. *Payment Integration:*
-   - Integrate a secure payment gateway for course purchases.
-
-----
 
 
 ## *Tech Stack:*
