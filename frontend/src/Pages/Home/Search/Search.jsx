@@ -20,10 +20,10 @@ function search() {
     };
 
     const daysName = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    
+    const base = import.meta.env.VITE_BACKEND_URL || '';
     let SearchTeacher = async()=>{
         let Subject = data.toLowerCase();
-        let Data = await fetch(`/api/course/${Subject}`)
+        let Data = await fetch(`${base}/api/course/${Subject}`)
         let response = await Data.json();
         if(response.statusCode == 200){
         setCourse(response.data)
@@ -39,7 +39,7 @@ function search() {
     const openTeacherDec = async(id,fname,lname,sub)=>{
         setTname({fname,lname,sub});
 
-        const data = await fetch('/api/teacher/teacherdocuments',{
+        const data = await fetch('${base}/api/teacher/teacherdocuments',{
             method: 'POST',
             credentials: "include",
             headers: {
